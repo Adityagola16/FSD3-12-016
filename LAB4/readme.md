@@ -21,3 +21,11 @@ script{
     with client
     - any brower can check only get method
     - for other method type we use third party API Tester lke postman,thunder client ,
+#Request type:-
+git all ,git by id
+get:/api/product -> all product
+get: /api/products/101 -> get by id
+
+#post
+post (add product)
+post: /api/products
